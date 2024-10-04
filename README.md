@@ -1,3 +1,5 @@
+Project developed with my colleagues Loick, Margaux and Gustave.
+
 # Docker Setup for PostgreSQL and pgAdmin
 
 ## Start all containers
