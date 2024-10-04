@@ -37,7 +37,6 @@ export class HomeComponent {
   allUserIngredients: IngredientBack[] = [];
 
   ngOnInit(){
-    console.log("Yolo")
     this.getAllRecipes(); 
   }
 

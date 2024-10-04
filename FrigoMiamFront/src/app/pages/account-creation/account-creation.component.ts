@@ -60,7 +60,7 @@ export class AccountCreationComponent {
     this.isSubmitted = true;
     if (!this.passwordHasError && !this.confirmPasswordHasError){
 
-      console.log(`gna: ${JSON.stringify(this.user)}`)
+      console.log(`user: ${JSON.stringify(this.user)}`)
 
       const userInstance = new User(
         this.user.email,

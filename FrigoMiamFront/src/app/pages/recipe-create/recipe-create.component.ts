@@ -53,9 +53,6 @@ export class RecipeCreateComponent {
     }
 
   submitRecipe() {
-    //console.log(`Recette soumise: ${JSON.stringify(this.createRecipe.value)}`, );
-    //const user = this.authService.getCurrentUser();//implément authService
-
     //create object JSOn
     const recipePayload = {
       recipe:{
